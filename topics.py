@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 from bs4 import BeautifulSoup
-import gensim
-from gensim.test.utils import common_corpus, common_dictionary
-from gensim.models import HdpModel
-from gensim.corpora.dictionary import Dictionary
 import numpy as np
 import pandas as pd
 import requests
